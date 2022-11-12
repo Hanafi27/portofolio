@@ -1,0 +1,145 @@
+ * {
+    font-family: heebo;
+ }
+
+ .navbar {
+    background-color: #3AB0FF;
+ }
+
+.navbar-nav {
+    font-family: heebo;
+    font-weight: 200px;
+}
+
+/* jumbotron */
+    .jumbotron {
+        margin-top: 12%;
+        font-family: heebo;
+    }
+    
+     .jumbotron img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        transition: 2.5s;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation: 2.5s;
+    } 
+
+    .jumbotron img:hover {
+        transform: rotate(360deg);
+    }
+
+    .jumbotron h1{
+        padding-top: 50px;
+        font-weight: 700;
+        font-size: 44px;
+        color: #21243D;
+    }
+
+    .jumbotron p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #21243D;
+    }
+/* last jumbotron */
+
+/* about me */
+    #about_me {
+        margin-top : 10%;
+        background-color: #85cdfd;
+    }
+
+    h3 {
+        padding-top: 3%;
+        font-weight: 400;
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+
+    #about_me .card {
+        padding : 10px;
+        /* width: 418px;
+        height: 295px; */
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 15px;
+        padding-left: 20px;
+    }
+
+    .card h5 {
+        font-weight: 700;
+        font-size: 26px;
+        color: #21243D;
+        
+    }
+
+    .card p {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #21243D;
+    }
+
+    .card span {
+        font-weight: 400;
+        font-size: 16px;
+        color: #21243D;
+        padding-top: 5%;
+    }
+/*  last about me*/
+
+/* kegiatan */
+
+    #kegiatan h3 {
+         font-weight: 400;
+         font-size: 22px;
+         color: #21243D;
+    }
+
+    #kegiatan h4 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #21243D;
+    }
+
+    #kegiatan p {
+        padding-left : 15px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #21243D;
+    }
+
+    .pekerjaan {
+        padding-top : 10%;
+    }
+
+    #contact h3 {
+        font-weight: 400;
+        font-size: 22px;
+        color: #21243D;
+    }
+/* last kegiatan */
+
+/* footer */
+footer {
+    background-color: #EDF7FA;
+    padding : 30px;
+}
+.gmb img {
+    padding-top : 15px;
+    width: 50px;
+    height: 40px;
+}
+
+
+footer h2 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #21243D;
+}
+/* last footer */
